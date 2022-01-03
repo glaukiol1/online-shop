@@ -52,7 +52,7 @@ const crypto = require('crypto');
 const encrypt = (txt)=>{
 	return crypto.createHash('sha256').update(txt).digest('hex')
 }
-const password = "GLAUKIOl1_ADMIN_PASSWORD";
+const password = "GLAUKIOl1_ADMIN_PASSWORD_SUPER_SECURE_ECOMMERCE_GITHUB_PASSWORD_MONKEY_1234$*%&(*&!$_*!%&!%^!@&*@!@_===+_-(CHANGE_ THIS _ LATER _ TO YOUR OWN _+& NEEDS)";
 
 const enc = encrypt(password);
 
@@ -73,6 +73,17 @@ app.get('/admin', (req,res)=>{
 		} else {
 			res.render('admin-login')
 		}
+	}
+})
+const Orders = require('./data.json');
+app.get('/admin/getOrders', (req,res)=>{
+	if (req.cookies.admin === enc) {
+		res.json(Orders);
+	} else {
+		res.json({
+			'error': 'Incorrect Authentication',
+			'status': 401
+		}).status(401);
 	}
 })
 

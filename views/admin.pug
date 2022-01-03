@@ -4,7 +4,13 @@ html
         style
             include ../public/css/admin.css
     body
-        h1 Admin Page 
-        button#logout Log Out
+        div(id="header")
+            h2(id="main-text") Admin Page | Gaga Sneakers&trade;
+        div(id="main")
+            div(id="orders")
+                input#id_search(type="text", placeholder="ID of order")
+                button#submit Submit
+                div(id="orders_output")
+            button#logout Log Out
         script(src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js")
         script(src="/js/admin.js")

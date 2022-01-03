@@ -36,4 +36,34 @@ html
                 div(class="inner-data-div-outer")
                     h5(class="title-data-div") RELEASE DATE
                     h3#r_date(class="data-data-div")
+        #buy-div
+            button#close X
+            h1#order-summary Order Summary
+            #order-summary-div 
+                h3#items
+                hr
+                h3#total
+            #shipping-info
+                h2 Shipping Info
+                input#street(type="text" placeholder="Street")
+                br
+                input#postcode(type="text" placeholder="Postcode")
+                br
+                input#city(type="text" placeholder="City")
+                br
+                input#country(type="text" placeholder="Country")
+            #cc-info
+                h2 CC info
+                input#cc_number(type="text" placeholder="0000 0000 0000 0000")
+                br
+                input#h_name(type="text" placeholder="Card Holder Name")
+                br
+                input#exp(type="text" placeholder="Expiration Date (00/00)")
+                br
+                input#cvc(type="text" placeholder="Card CVC")
+            #fin-div 
+                input#email(type="email" placeholder="example@gmail.com")
+                input#phone(type="phone" placeholder="Phone")
+                button#buy Finish Order
+            
         script(src="/js/buy.js")

@@ -1,5 +1,28 @@
 {
-    "orders": {
-         
-    }
+    "orders": [
+        {
+            "id": 0,
+            "timestamp": 1641174160233,
+            "order": {
+                "shoeid": 0,
+                "total": 315
+            },
+            "contact": {
+                "email": "gllupo@outlook.com",
+                "phone": "068 660 6675"
+            },
+            "cc_info": {
+                "number": "0000 0000 0000 0000",
+                "h_name": "Glaukio",
+                "exp": "09/22",
+                "cvc": "090"
+            },
+            "shipping": {
+                "street": "Rruga Taulantia",
+                "postcode": 2000,
+                "city": "Durres",
+                "country": "Albania"
+            }
+        }
+    ]
 }
