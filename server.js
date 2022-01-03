@@ -47,6 +47,34 @@ app.get('/buy', (req,res)=>{
 		res.redirect('/shop')
 	}
 })
+const crypto = require('crypto');
+
+const encrypt = (txt)=>{
+	return crypto.createHash('sha256').update(txt).digest('hex')
+}
+const password = "GLAUKIOl1_ADMIN_PASSWORD";
+
+const enc = encrypt(password);
+
+app.get('/admin', (req,res)=>{
+	if (req.cookies.admin === enc) {
+		res.render('admin')
+	} else {
+		if (!req.cookies.admin) {
+			res.render('admin-login');
+			res.end()
+		}
+		if (req.cookies.admin && !req.query.error) {
+			if (req.cookies.admin !== 'logout') {
+				res.redirect('/admin?error=wrongpass')
+			} else {
+				res.redirect('/admin?error=logout')
+			}
+		} else {
+			res.render('admin-login')
+		}
+	}
+})
 
 app.listen(3000, ()=>{console.log('Server Started on 127.0.0.1:3000!')}) // Listen on port 3000
 

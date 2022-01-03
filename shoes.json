@@ -9,7 +9,7 @@
             "sizes": [
                 40
             ],
-            "description": "The adidas Yeezy 450 “Resin” is a monochromatic tan colorway of the progressive, sock-like shoe by Kanye West and adidas that was released in December 2021. The “Resin” features a tan sock-like woven upper with a one-piece tan EVA foam sole that extends up to the collar. A traditional lacing system is on top of the shoe in lieu of the 450’s sock-like appearance. The “Resin” succeeded popular Yeezy 450s like the “Cloud White” and “Dark Slate” colorways in 2021. Release date: December 17, 2021",
+            "description": "The adidas Yeezy 450 'Resin' is a monochromatic tan colorway of the progressive, sock-like shoe by Kanye West and adidas that was released in December 2021. The 'Resin' features a tan sock-like woven upper with a one-piece tan EVA foam sole that extends up to the collar. A traditional lacing system is on top of the shoe in lieu of the 450’s sock-like appearance. The 'Resin' succeeded popular Yeezy 450s like the 'Cloud White' and 'Dark Slate' colorways in 2021. Release date: December 17, 2021",
             "brand": "adidas",
             "brand_img": "/img/adidas.png",
             "data": {
@@ -29,7 +29,7 @@
             "sizes": [
                 40
             ],
-            "description": "The Air Jordan 1 High OG “Patent Bred” updated an original colorway of Michael Jordan’s first signature shoe with a patent leather finish. Based on the iconic “Bred” colorway, the aptly named “Patent Bred” features a modified patent leather construction inspired by classic Nike Air Force 1s of yesteryear. Much like the original “Bred,” Varsity Red leather detailing can be found on the perforated toe, collar, heel, and Swoosh, though in patent leather. Black patent leather forms the base. A black “Wings” logo can be found on the collar and red “Nike Air” detailing appears on the black nylon tongue tag on the black nylon tongue. A white rubber midsole and Varsity Red-colored outsole complete the look. Release date: Fall 2021.",
+            "description": "The Air Jordan 1 High OG 'Patent Bred' updated an original colorway of Michael Jordan’s first signature shoe with a patent leather finish. Based on the iconic 'Bred' colorway, the aptly named 'Patent Bred' features a modified patent leather construction inspired by classic Nike Air Force 1s of yesteryear. Much like the original 'Bred,' Varsity Red leather detailing can be found on the perforated toe, collar, heel, and Swoosh, though in patent leather. Black patent leather forms the base. A black 'Wings' logo can be found on the collar and red 'Nike Air' detailing appears on the black nylon tongue tag on the black nylon tongue. A white rubber midsole and Varsity Red-colored outsole complete the look. Release date: Fall 2021.",
             "brand": "jordan",
             "brand_img": "/img/air-jordan-logo.png",
             "data": {
@@ -49,7 +49,7 @@
             "sizes": [
                 40
             ],
-            "description": "The Nike Air Force 1 Low “Strive For Greatness” is a collaboration between LeBron James and Nike on the classic basketball shoe in a luxury-inspired colorway. A Fall 2021 release by Nike, the “Strive For Greatness” updates the beloved low-top silhouette with a tan and Sail checkerboard pattern on the mid-panel, collar, and heel. Both the perforated toe and forefoot, as well as the eyelets, are designed in tan leather. A black leather Swoosh is found on either side of the shoe and a blue embroidered graphic of a lion wearing a crown is stitched onto the heel. LeBron’s signature “LJ” branding appears on the toe and the phrase “Strive For Greatness” is printed on the insole. The shoe rides on a cream-colored rubber midsole.",
+            "description": "The Nike Air Force 1 Low 'Strive For Greatness' is a collaboration between LeBron James and Nike on the classic basketball shoe in a luxury-inspired colorway. A Fall 2021 release by Nike, the 'Strive For Greatness' updates the beloved low-top silhouette with a tan and Sail checkerboard pattern on the mid-panel, collar, and heel. Both the perforated toe and forefoot, as well as the eyelets, are designed in tan leather. A black leather Swoosh is found on either side of the shoe and a blue embroidered graphic of a lion wearing a crown is stitched onto the heel. LeBron’s signature 'LJ' branding appears on the toe and the phrase 'Strive For Greatness' is printed on the insole. The shoe rides on a cream-colored rubber midsole.",
             "brand": "nike",
             "brand_img": "/img/nike.png",
             "data": {
@@ -67,9 +67,9 @@
             "price": 345,
             "image": "/img/yeezy-boost-350.jpeg",
             "sizes": [
-                31,32,33,34
+                40
             ],
-            "description": "The adidas Yeezy Boost 350 V2 “MX Rock” is a December 2021 release of the casual lifestyle shoe by Kanye West in a design that features a marbled appearance. The “MX Rock” succeeds the “MX Oat” in bringing a new swirled style to the Yeezy Boost 350 V2, a departure from the traditional layered look of the shoe’s original design. The woven Primeknit upper features swirls of brown and dark grey against a black base. Like many 350 V2s, a side monofilament stripe, this time in black, complements the colorway. Black laces appear on the top of the sock-like shoe. A black painted ribbed midsole housing adidas’s Boost cushioning technology completes the design. Release date: December 30, 2021",
+            "description": "The adidas Yeezy Boost 350 V2 'MX Rock' is a December 2021 release of the casual lifestyle shoe by Kanye West in a design that features a marbled appearance. The 'MX Rock' succeeds the 'MX Oat' in bringing a new swirled style to the Yeezy Boost 350 V2, a departure from the traditional layered look of the shoe’s original design. The woven Primeknit upper features swirls of brown and dark grey against a black base. Like many 350 V2s, a side monofilament stripe, this time in black, complements the colorway. Black laces appear on the top of the sock-like shoe. A black painted ribbed midsole housing adidas’s Boost cushioning technology completes the design. Release date: December 30, 2021",
             "brand": "adidas",
             "brand_img": "/img/adidas.png",
             "data": {
@@ -87,22 +87,38 @@
             "price": 390,
             "image": "/img/jordan-air-11-retro-cool-grey.jpeg",
             "sizes": [
-                31,32,33,34
+                40
             ],
+            "description": "The Air Jordan 11 Cool Grey 2021' is the third-ever release of the popular, non-original colorway of Michael Jordan’s retro basketball shoe that originally debuted in 2001. The 'Cool Grey' colorway of the Air Jordan 11 is considered one of the most storied and influential Air Jordan shoes ever, despite the fact that it’s not an original colorway of the silhouette. First released back in March 2001, the 'Cool Grey' was later worn by Michael with the Washington Wizards. The Cool Grey look was replicated on the Air Jordan 3, Air Jordan 4, and Air Jordan 9 after the success of the Jordan 11. The colorway was brought back in December 2010, and again for this edition on the shoe’s 20th anniversary in December 2021. Details include a Cool Grey patent leather mudguard, Medium Grey synthetic nubuck upper, and white embroidered Jumpman on the collar. Additional details include white '23' on the heel, white shoe laces, and a white foam midsole. An icy translucent blue outsole completes the look of this iconic shoe. Release date: December 11, 2021",
             "brand": "jordan",
-            "brand_img": "/img/air-jordan-logo.png"
+            "brand_img": "/img/air-jordan-logo.png",
+            "data": {
+                "man_sku": "CT8012 005",
+                "gender": "Mens",
+                "nickname": "Cool Grey 2021",
+                "colorway": "MEDIUM GREY/WHIT..",
+                "r_date": "December 11, 2021"
+            }
         },
         {
             "id": 5,
             "name": "Yeezy Boost 350 V2",
-            "subname":"\"MX Rock\"",
+            "subname":"\"Beluga\"",
             "price": 449,
             "image": "/img/yeezy-boost-350-v2.jpeg",
             "sizes": [
-                31,32,33,34
+                40
             ],
+            "description": "The adidas Yeezy Boost 350 V2 Reflective “Beluga” is a December 2021 release that updates the popular colorway of Kanye West’s casual lifestyle shoe with high-visibility reflective detailing. The original “Beluga” Yeezy Boost 350 V2 debuted back in September 2016 to much fanfare, and it is seen as one of the most desirable colorways of any adidas Yeezy shoe, 350 V2 or otherwise. The Reflective “Beluga” is a one-to-one remake of the 2016 version of the colorway, now with reflective material integrated into the Primeknit. The upper features a grey woven Primeknit upper with a contrasting Solar Red side stripes with contrasting “SPLY-350” branding. The marbled grey and black laces, as well as the upper, are treated with a reflective finish. A full-length Boost cushioned midsole provides a responsive ride. Release date: December 18, 2021",
             "brand": "adidas",
-            "brand_img": "/img/adidas.png"
+            "brand_img": "/img/adidas.png",
+            "data": {
+                "man_sku": "GW1229",
+                "gender": "Mens",
+                "nickname": "Beluga",
+                "colorway": "STEEPLE GRAY/BELUGA..",
+                "r_date": "December 18, 2021"
+            }
         }
     ]
 }
