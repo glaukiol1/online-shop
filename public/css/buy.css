@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+#header {
+    position: fixed;
+    top: 0%;
+    left: 0;right:0;
+    bottom: 91%;
+    background-color: #1D1C1A;
+    margin: 0;
+    z-index: 3;
+}
+
+#header #main-text {
+    color: white;
+    text-align: center;
+}
+
+#image-div {
+    position: fixed;
+    left: 0%;
+    top: 20%;
+    bottom: 15%;
+    right: 50%;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    text-align: center;
+    padding: 2%;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+#main {
+    position: fixed;
+    left: 60%;
+    top: 25%;
+    right: 15px;
+    text-align: left;
+}
+
+#name {
+    font-size: 1.8rem;
+    font-weight: 900;
+    font-family: ProximaNova, sans-serif;
+    margin-bottom: 0;
+}
+
+#subname {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: ProximaNova, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#price {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: ProximaNova, sans-serif;
+    margin-top: 1px;
+    color: black;
+}
+
+#size-select {
+    width: 100px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+#buynow {
+    display: block;
+    font-size: 1.1rem;
+    font-family: ProximaNova, sans-serif;
+    text-align: center;
+    border: 0px;
+    border-radius: 0.2rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    height: 3rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    background-color: rgb(164, 29, 35);
+    width: 100%;
+    margin: 1.6rem 0px;
+    padding: 0px 2%;
+    letter-spacing: 0.08rem;
+}
+
+#size-div {
+    text-align: left;
+    box-shadow: gray 1px 2px 5px;
+    width: 80%;
+    padding: 12px;
+}
+
+#size-div #img-div {
+    text-align: center;
+}
+
+#data-div {
+    position: fixed;
+    top: 10%;
+    left: 15px;
+    right: 15px;
+    border: 1px solid rgb(223, 221, 221);
+}
+
+.inner-data-div {
+    border-right: 1px solid rgb(223, 221, 221);
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 17%;
+}
+
+.inner-data-div-outer {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 17%;
+}
+
+#data-div div {
+    display: inline-block;
+}

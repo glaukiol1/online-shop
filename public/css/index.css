@@ -1,0 +1,81 @@
+
+body {
+    background-color: #ffbc3a;
+}
+
+#main-shoe {
+    position: fixed;
+    left: 5%;
+    top: 15%;
+    width: 40%;
+    transform: rotate(-30deg);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+#main-text {
+    position: fixed;
+    left: 60%;
+    top: 10%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#main-text p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: right !important;
+    margin: 2px;
+}
+
+#main-text a {
+    font-weight: 900;
+    color: black;
+}
+
+.dark {
+    color: rgb(119, 18, 18);
+}
+
+#logos {
+    position: fixed;
+    bottom: 2%;
+    top: 80%;
+    left: 40%;
+    right: 20%;
+}
+
+#logos img {
+    width: 120px;
+    height: auto;
+}
+
+#admin-btn {
+    text-align: center;
+    margin: auto;
+    background-color: transparent;
+    border: 1px solid black;
+    outline: none;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100% !important;
+    height: 60px !important;
+    cursor: pointer;
+}
+#customer-btn {
+    text-align: center;
+    margin: auto;
+    background-color: #0080ff;
+    border: 1px solid transparent;
+    color: #fff;
+    outline: none;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100% !important;
+    height: 60px !important;
+    cursor: pointer;
+}

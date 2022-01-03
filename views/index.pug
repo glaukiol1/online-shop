@@ -1,0 +1,23 @@
+
+html
+	head
+		title Gaga Sneakers - Welcome
+		style
+			include ../public/css/index.css
+	body
+		img(src="/img/main-shoe.png" id="main-shoe")
+		div(id="main-text")
+			h2 Ga
+				text(class="dark") ga 
+				text Sneakers
+			p Worldwide shipping 
+			p
+				a(href="mailto:help@gagasneakers.business") help@gagasneakers.business
+			button(id="admin-btn" onclick="javascript:window.location.href='/admin'") Admin Panel
+			button(id="customer-btn" onclick="javascript:window.location.href='/shop'") Start Shopping!
+		div(id="logos")
+			img(id="nike" src="/img/nike.png")
+			img(id="adidas" src="/img/adidas.png")
+			img(id="jordan" src="/img/air-jordan-logo.png")
+		script(src="/js/index.js")
+

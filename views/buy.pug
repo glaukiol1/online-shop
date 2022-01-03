@@ -1,0 +1,39 @@
+html
+    head
+        title Gaga Sneakers - Buy
+        style
+            include ../public/css/buy.css
+    body
+        div(id="header")
+            h2(id="main-text") Gaga Sneakers&trade;
+        div(id="image-div")
+        div(id="main")
+            h1(id="name")
+            h2(id="subname")
+            br
+            h2(id="price")
+            div(id="size-div")
+                h2 Choose Size
+                h4 Europe sizes
+                select(id="size-select" name="Choose Size") 
+                    option(disabled) Choose Size
+                button(id="buynow") Buy Now
+                div#img-div
+                    img#logo(src="/img/adidas.png" width="100")
+            div(id="data-div")
+                div(class="inner-data-div")
+                    h5(class="title-data-div") MANUFACTURED SKU
+                    h3#man_sku(class="data-data-div") 
+                div(class="inner-data-div")
+                    h5(class="title-data-div") GENDER
+                    h3#gender(class="data-data-div") 
+                div(class="inner-data-div")
+                    h5(class="title-data-div") NICKNAME
+                    h3#nickname(class="data-data-div")
+                div(class="inner-data-div")
+                    h5(class="title-data-div") COLORWAY
+                    h3#colorway(class="data-data-div")
+                div(class="inner-data-div-outer")
+                    h5(class="title-data-div") RELEASE DATE
+                    h3#r_date(class="data-data-div")
+        script(src="/js/buy.js")

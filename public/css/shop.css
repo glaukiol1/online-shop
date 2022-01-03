@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+    position: fixed;
+    top: 0%;
+    left: 0;right:0;
+    bottom: 91%;
+    background-color: #1D1C1A;
+    margin: 0;
+    z-index: 3;
+}
+
+#header #main-text {
+    color: white;
+    text-align: center;
+}
+
+#advertisment {
+    width: 100% !important;
+    height: auto;
+}
+
+#advertisment-div {
+    margin-top: 6%;
+    border: 0px;
+}
+
+#div-text {
+    position:absolute;
+    top: 10rem;
+    left: 3%;
+    background-color: white;
+    padding: 15px;
+    width: 30%;
+    z-index: 2;
+    height: 30%;
+    border-radius: 12px !important;
+}
+
+#div-text * {
+    font-weight: 400 !important;
+}
+
+#yeezy-text-1 {
+    font-size: 0.9rem;
+    letter-spacing: 0.08rem;
+}
+#yeezy-text-1, #yeezy-text {
+    font-family: sans-serif;
+}
+#yeezy-p {
+    font-weight: 100 !important;
+}
+
+#yeezy-buy {
+    width: 40%;
+    height: 20%;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 17px;
+}
+
+#yeezy-buy:hover {
+    animation: btn-animation 0.4s ease-in;
+    width: 80%;
+    height: 20%;
+    background-color: #ffbc3a;
+    cursor: pointer;
+}
+
+@keyframes btn-animation {
+    0% {
+        width: 40%;
+        height: 20%;
+        background-color: transparent;
+        outline: none;
+        border: 1px solid gray;
+        font-size: 17px;
+    }
+    100% {
+        width: 80%;
+        height: 20%;
+        background-color: #ffbc3a;
+    }
+}
+
+#header-2 {
+    position: block;
+    width: 100%;
+    height: 7%;
+    padding: 2px;
+    background-color:#e4e4e4;
+}
+
+#header-2 * {
+    text-align: center;
+}
+
+#main {
+    position: block;
+    overflow-y: scroll;
+}
+#main div {
+    display: inline-block;
+}
+
+.shoe {
+    width: 31% !important;
+    padding: 15px;
+}
+
+.shoe-img {
+    width: 100%;
+}
+
+.shoe-title {
+    text-align: center;
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 2 rem;
+    margin: 1px;
+}
+
+.price { 
+    color: #656565;
+    font-size: 1rem;
+    text-align: center;
+    margin: 4px;
+    font-family: 'ProximaNova', sans-serif;
+    font-weight: 200;
+}
