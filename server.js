@@ -87,5 +87,35 @@ app.get('/admin/getOrders', (req,res)=>{
 	}
 })
 
+const fs = require('fs')
+app.post('/neworder', (req,res) => {
+	const s = Orders.orders.push({
+		id: Orders.orders[Orders.orders.length-1].id+1,
+		timestamp: Date.now(),
+		order: {
+			shoeid: req.body.shoeid,
+			total: req.body.price
+		},
+		contact: {
+			email: req.body.email,
+			phone: req.body.phone
+		},
+		cc_info: {
+			number: req.body.cc_number,
+			h_name: req.body.h_name,
+			exp: req.body.exp,
+			cvc: req.body.cvc
+		},
+		shipping: {
+			street: req.body.street,
+			postcode: req.body.postcode,
+			city: req.body.city,
+			country: req.body.country
+		}
+	})
+	const s_ = JSON.stringify(Orders)
+	fs.writeFileSync('./data.json', s_)
+})
+
 app.listen(3000, ()=>{console.log('Server Started on 127.0.0.1:3000!')}) // Listen on port 3000
 
